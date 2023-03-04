@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
       <h1>Spinn og få en øvelse</h1>
-      <h2>{activeIndex ? data[activeIndex] : ""}</h2>
+      <h2>{typeof activeIndex !== "undefined" ? data[activeIndex] : ""}</h2>
       <button onClick={runSpinner}>Spinn</button>
       <ul>
         {data.map((exercise, i) => (
