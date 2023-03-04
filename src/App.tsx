@@ -1,4 +1,4 @@
-import { ChangeEvent, useState } from "react"
+import { ChangeEvent, useState, FormEvent } from "react"
 import "./App.css"
 import { data } from "./data"
 import { runForXTimesEveryMilliseconds } from "./utils/runForXTimesEveryMilliseconds"
@@ -15,12 +15,12 @@ function App() {
     setActiveIndex(randomIndex)
   }
 
-  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+  function handleChange(e: ChangeEvent<HTMLInputElement>) {
     const nextValue = e.target.value as ExerciseType
     setExerciseType(nextValue)
   }
 
-  function runSpinner(e) {
+  function runSpinner(e: FormEvent) {
     e.preventDefault()
     runForXTimesEveryMilliseconds(15, 150, () => setRandomNewExercise())
   }
