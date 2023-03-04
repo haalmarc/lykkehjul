@@ -1,4 +1,4 @@
-export const data = [
+const piano = [
   "Spill alle de hvite tangentene fra C til C, og gå opp og ned på tastaturet.",
   "Spill alle de svarte tangentene fra D flat til D flat, og gå opp og ned på tastaturet.",
   "Øv på å spille store skalaer i alle 12 tonearter.",
@@ -30,3 +30,34 @@ export const data = [
   "Øv på å spille med en metronom for å forbedre timingen.",
   "Øv på å lese nye musikkstykker på synet.",
 ]
+
+const sjakk = [
+  "Løs 5 sjakkoppgaver på nettet eller i en sjakk-app.",
+  "Spill et raskt sjakkparti mot datamaskinen for å øve på å ta raske beslutninger.",
+  "Analyser ditt siste sjakkparti og identifiser en feil eller et forbedringsområde å fokusere på de neste 5 minuttene.",
+  "Studér en åpning du har slitt med i dine siste sjakkpartier i de neste 5 minuttene.",
+  "Lær og øv på en ny sjakkstrategi i 5 minutter, for eksempel 'dobbel bondesluttspill'.",
+  "Øv på å løse sjakkproblemer på en sjakk-app eller nettside i 5 minutter.",
+  "Studér et sluttspill i 5 minutter for å forbedre evnen til å konvertere fordeler til vinst.",
+  "Øv på å se hele sjakkbrettet og unngå taktiske feller i 5 minutter.",
+  "Spill et hurtigsjakkparti mot en venn eller en sjakkklubb i 5 minutter.",
+  "Lær og øv på å gjenkjenne sjakkangrep og forsvaret mot dem i de neste 5 minuttene.",
+  "Studér sjakkteori om åpninger og gjør deg klar til å bruke kunnskapen i de neste 5 minuttene.",
+  "Øv på å beregne varianter og kombinasjoner på nettet eller i en sjakk-app i 5 minutter.",
+  "Lær og øv på å forutsi motstanderens trekk i 5 minutter.",
+  "Analyser et parti fra et sjakkverdensmesterskap i 5 minutter for å lære av de beste spillerne i verden.",
+  "Spill 'blindsjakk' i 5 minutter for å øve på å tenke på brettet i hodet ditt.",
+  "Studér sjakkpsykologi og strategier for å vinne kamper i 5 minutter.",
+  "Øv på å spille med forskjellige farger i 5 minutter.",
+  "Lær og øv på å spille med forskjellige brikker, som springere og løpere, i 5 minutter.",
+  "Spill simultansjakk mot flere motstandere samtidig i 5 minutter.",
+  "Øv på å utvikle brikker raskt og effektivt i åpningsspillet i 5 minutter.",
+  "Spill 'sprett-sjakk' i 5 minutter for å trene på taktikk og posisjonell forståelse.",
+  "Analyser og kommenter et av dine egne sjakkpartier fra fortiden i 5 minutter for å lære av dine feil.",
+  "Studér sjakkhistorie og legendariske partier i 5 minutter for å forbedre din sjakkforståelse.",
+]
+
+export const data = {
+  piano,
+  sjakk,
+}
